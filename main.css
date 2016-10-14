@@ -1,0 +1,93 @@
+/* General CSS */
+
+body {
+  background-image: url(thedream.jpg);
+  font-family: 'Cinzel', serif;
+  color: #FFF;
+}
+
+header {
+  margin: auto;
+  width: 100%;
+  background: #000;
+  padding-left: 5px;
+  padding-top: 5px;
+  border-top: 5px solid #404040;
+  border-bottom: 5px solid #404040;
+
+}
+
+h2 {
+  text-decoration: underline;
+  color: #FFF;
+  
+}
+
+h5 {
+  padding-left: 5%;
+}
+
+p {
+  font-family: 'Cinzel', serif;
+  color: #FFFFFF;
+}
+
+p:first-letter { 
+  float: left; 
+  color: #B156ED; 
+  font-size: 25px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 30px; 
+  font-family: 'Cinzel', serif;
+}
+
+ul {
+  text-align: left;
+  padding-right: 50%;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #FFF;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div {
+    -webkit-animation: imgfade 5s;
+    animation: imgfade 5s infinite;
+    padding-left: 12%;
+}
+
+@keyframes imgfade 
+{
+    0% {
+  	opacity: .4;
+    }
+  	100% {
+  	opacity: 1;
+  	}
+  	100% {
+  	opacity: 1;
+  	}
+  	0% {
+  	opacity: .4;
+  	} 
+}
+
+footer {
+  border-top: 5px solid #404040;
+  border-bottom: 5px solid #404040;
+  background: #000;
+}
+
+img {
+  margin: auto;
+  height: 350px;
+  width: 500px;
+  
+}
